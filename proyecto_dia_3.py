@@ -1,7 +1,7 @@
 #text = str(input("Ingrese un texto para procesar:"))
 text = """Bueno, el tercer día no ha dejado nada que desear. Hemos visto muchas cosas y de las buenas, 
-y ha llegado la hora de juntar todo lo python aprendido y ponerlo en práctica, creando un programa 
-perfectamente funcional desde cero python."""
+y ha llegado la hora de juntar todo lo aprendido y ponerlo en práctica, creando un programa 
+perfectamente funcional desde cero."""
 
 text_upper = text.upper()
 
@@ -44,7 +44,7 @@ print(" ".join(text_reverse))
 # 5
 print("""\n     Y por último: el sistema nos va a decir si la palabra “Python” se encuentra dentro del 
 texto.""")
-if (text_upper.count("PYTHON".upper())) > 0:
+if "PYTHON" in text_upper:
     print('La palabra "Python" se encuentra en el texto.')
 else:
     print('La palabra "Python" NO se encuentra en el texto.')
