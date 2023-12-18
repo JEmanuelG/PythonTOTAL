@@ -26,3 +26,6 @@ while intentos < 8:
         print("Felicitaciones!! Ha ganado.")
         print(f"Te tomó {intentos} intentos.")
         break
+    
+    if intentos == 8:
+        print("Los siento, no adivinaste el número.")
